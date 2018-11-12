@@ -245,7 +245,7 @@ public class LockManageActivity extends MPermissionsActivity implements View.OnC
                         progressDialog = ProgressDialog.show(context, null, "正在修改密码...");
 //                        progressDialog.setTitle("正在修改密码...");
 
-                        App.getInstance().getBluetoothLeService().writeCharacteristic(new byte[]{0x05, 0x03, 0x06,SampleGattAttributes.passwordnew[0],SampleGattAttributes.passwordnew[1],SampleGattAttributes.passwordnew[2],SampleGattAttributes.passwordnew[3],SampleGattAttributes.passwordnew[4],SampleGattAttributes.passwordnew[5],  token[0], token[1], token[2], token[3], 0x00, 0x00, 0x00}, SampleGattAttributes.newkey);
+                        App.getInstance().getBluetoothLeService().writeCharacteristic(new byte[]{0x05, 0x03, 0x06,SampleGattAttributes.password[0],SampleGattAttributes.password[1],SampleGattAttributes.password[2],SampleGattAttributes.password[3],SampleGattAttributes.password[4],SampleGattAttributes.password[5],  token[0], token[1], token[2], token[3], 0x00, 0x00, 0x00}, SampleGattAttributes.newkey);
 
                         handler.postDelayed(new Runnable() {
                             @Override

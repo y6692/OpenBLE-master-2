@@ -35,11 +35,11 @@ public class SampleGattAttributes {
 //    public static byte[] key = {30,85,45,80,52,73,60,70,45,75,60,86,10,90,40,42};
 //    public static byte[] password = {0x32, 0x30, 0x31, 0x37, 0x31, 0x35};
 
-//    public static byte[] newkey = {30,85,45,80,52,73,60,70,45,75,60,86,10,90,40,42};
-//    public static byte[] passwordnew = {0x32, 0x30, 0x31, 0x37, 0x31, 0x35};
+    public static byte[] newkey = {30,85,45,80,52,73,60,70,45,75,60,86,10,90,40,42};
+    public static byte[] passwordnew = {0x32, 0x30, 0x31, 0x37, 0x31, 0x35};
 
-    public static byte[] newkey = {32,87,47,82,54,75,63,71,48,80,65,88,17,99,45,43};
-    public static byte[] passwordnew = {0x30, 0x30, 0x30, 0x30, 0x30, 0x30};
+//    public static byte[] newkey = {32,87,47,82,54,75,63,71,48,80,65,88,17,99,45,43};
+//    public static byte[] passwordnew = {0x30, 0x30, 0x30, 0x30, 0x30, 0x30};
 
 //    public static byte[] key = {74,50,90,95,30,21,61,17,80,46,99,94,4,73,1,15};
 //    public static byte[] password = {0x4D, 0x47, 0x22, 0x3F, 0x38, 0x3B};
